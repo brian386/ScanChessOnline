@@ -23,5 +23,7 @@ I also experimented with neural networks for this task, but inference on ~800 im
 a. Heuristically try sets of 4 lines that may determine the borders of a chessboard. Project lattice points onto the frame of the 4 corners defined by the intersection 4 lines, and define a scoring function based on shortest distances from a unity grid to projected lattice points. The lines with highest score determine the chessboard.
 
 Example detections:
+
+
 ![example1](https://user-images.githubusercontent.com/55104633/227004743-4be81201-50b1-4b9b-9bbf-0ff2130fa906.jpg)
 ![example2](https://user-images.githubusercontent.com/55104633/227005514-59f3c788-3a74-4d4b-b81b-c91bee614a38.jpg)
