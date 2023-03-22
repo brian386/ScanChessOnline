@@ -18,7 +18,7 @@ a. Use a template matching based method based on [this paper](https://iopscience
 
 I also experimented with neural networks for this task, but inference on ~800 images was too slow for my needs. I might come back to this and try optimizing a neural network in the future.
 
-### 3. Scoring (todo)
+### 3. Scoring
 
 a. Heuristically try sets of 4 lines that may determine the borders of a chessboard. Project lattice points onto the frame of the 4 corners defined by the intersection 4 lines, and define a scoring function based on shortest distances from a unity grid to projected lattice points. The lines with highest score determine the chessboard.
 
